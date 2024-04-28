@@ -1,0 +1,161 @@
+/* ------------- CSS FOR SMALL SCREENS --------------- */
+
+@media only screen and (max-device-width: 500px) and (max-device-height: 1000px){
+    body {
+        display: block;
+        justify-content: center;
+        position: absolute;
+    }
+    
+    #Welcome {
+        padding: 15px;
+    }
+    
+    #Welcome h1 {
+        font-size: 60px;
+    }
+
+    #Welcome h3 {
+        font-size: 45px;
+        line-height: 1.5;
+    }
+
+    .deff {
+        margin-top: 20px;
+    }
+
+    .deff h1 {
+        font-size: 55px;
+    }
+
+    .deff i {
+        font-size: 40px;
+    }
+
+    #Definitions h2 {
+        cursor: pointer;
+    }
+
+    #Definitions .tab-contents {
+        display: none;
+    }
+
+    #Definitions .tab-contents.active-tab {
+        display: block;        
+    }
+
+    #Definitions {
+        margin-right: 20px;
+    }
+
+    #Definitions .active-link h2 {
+        border: 1px solid #4A07EE;
+        border-radius: 15px;
+        color: white;
+        background-color: skyblue;
+        transition: background 0.5s;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .deff i {
+        display: none;
+    }
+    #Definitions {
+        display: block;
+    }
+
+    #Profil {
+        background-color: #F5F5F5;
+    }
+
+    fieldset.sex {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    fieldset.sex img {
+        width: 200%;
+        height: auto;
+        display: inline;
+    }
+
+    .male img {
+        padding: 15px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 0;
+        background-color: #f54545;
+        border-radius: 35px;
+        transform: scale(1.8);
+    }
+
+    .female img {
+        padding: 15px;
+        margin-top: 100px;
+        margin-bottom: 80px;
+        background-color: #87CEEB;
+        border-radius: 35px;
+        transform: scale(1.7);
+    }
+    
+    .table_data {
+        display: inline-block;
+    }
+ 
+    form #gbe img {
+        display: inline-block;
+    }
+
+    .table_data {
+        display: inline-block;
+    }
+
+    button#chart_button{
+        margin-top: -60px;
+    }
+
+    table#nutrients th {
+        display: block;
+    }
+
+    table#nutrients #caloriesss {
+        padding: 0px;
+    }
+
+    #caloriesss h3 {
+        background-color: rgb(181, 7, 181);
+        padding: 60px 180px 60px 180px;
+        font-size: 50px;
+    }
+
+    #gains h3 {
+        background-color: rgb(26, 26, 247);
+        padding: 60px 180px 60px 180px;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    #sugar h3 {
+        background-color:  greenyellow;
+        padding: 60px 180px 60px 180px;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    #fatss h3 {
+        background-color: rgb(204, 68, 19);
+        padding: 60px 180px 60px 180px;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    th {
+        padding: 0px;
+    }
+
+    #nutrients h2 {
+        font-size: 35px;
+    }
+ }

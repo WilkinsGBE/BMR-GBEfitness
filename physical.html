@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="shredded.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>GBE Physical Platform</title>
+</head>
+<body>
+    <div id="Welcome">
+        <h1>Hi, we are happy to see that you took the choice to <br><span>Get Better Everyday</span></h1>
+            <h3>Here you will see the fundamentals keys to Bulk or Cut, and see what you should eat everyday.<br></h3>
+    </div> 
+
+        <div class="deff">
+            <h1>The definitions of different Muscle building stages </h1><i id="icon" class="fa-solid fa-circle-chevron-down"></i>
+   <div id="Definitions">
+        <div class="tab-links active-link" id="Bulk">
+            <h2>Bulking Phase</h2>
+            <div class="tab-contents active-tab">
+                <blockquote cite="https://www.healthline.com/nutrition/bulking#:~:text=Bulking%20is%20the%20muscle%2Dgaining,while%20weight%20training%20(%201%20).">
+                    <p>Bulking is the muscle-gaining phase. You're meant to intentionally consume more calories than your body needs for a set period <br> Often 4 to 6 months. 
+                    These extra calories provide your body with the necessary fuel to boost muscle size and strength while weight training </p>
+                </blockquote>
+            </div>
+        </div>
+    
+        <div class="tab-links" id="Cut">
+            <h2>Cutting Phase</h2>
+            <div class="tab-contents">
+                <blockquote cite="https://www.healthline.com/nutrition/cutting-diet#:~:text=Cutting%20is%20a%20fat%2Dloss,as%20much%20muscle%20as%20possible.">
+                    <p>Cuting is a fat-loss phase that bodybuilders and fitness enthusiasts use to get as lean as possible. Typically started a few months before a 
+                    major workout plan, it involves a weight loss diet that's meant to maintain as much muscle as possible.</p>
+                </blockquote>
+            </div> 
+        </div> 
+      
+        <div class="tab-links" id="Maintain">
+            <h2>Maintenance/Recomposition</h2>
+            <div class="tab-contents">
+                <blockquote cite="https://www.parkview.com/blog/the-phases-of-perfecting-your-physique#:~:text=Maintenance%20phases%20allow%20for%20full,prevent%20adaptation%20to%20higher%20volumes.">
+                    <p>Maintenance phases allow for full recovery and prepare our bodies for the next hard muscle-building block. It allows for refueling 
+                       and resensitizing our bodies to insulin, while decreasing fatigue and prevent adaptation to higher volumes.</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <p class="source">All the informations are from healthline and Parkview Website</p>
+    </div>
+
+    <div id="Questions">
+        <div class="goal">
+            <h1>Your Profil</h1>
+        </div>
+        <div id="Profil">
+            <h2>Your sex</h2>
+            <form id="gbe">
+                <fieldset class="sex">
+                    <div class="male">
+                        <input type="radio" id="male" name="sex" value="male">
+                        <label for="male">Male</label><br>
+                        <label for="male">
+                            <img src="pictures/arnold.png" alt="One of the Greatest bodybuilders of all-time"><br>
+                        </label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" id="female" name="sex" value="female">
+                        <label for="female">Female</label><br>
+                        <label for="female">
+                            <img src="pictures/female training.png" alt="A black female working out">
+                        </label>
+                    </div>
+                </fieldset><br>
+            </form>
+        </div>
+        <div class="table_data">
+            <div class="bodyyy">
+                <!-- <i class="fa-solid fa-grip-dots"></i> -->
+                <h2 class="idk">Your Body</h2>
+                <h3>What is your mesureament units?</h3>
+                <select id="metric">
+                    <option value="Metric">Metric (kg, cm)</option>
+                    <option value="Imperial">Imperial (lb, in)</option>
+                </select><br>
+                <fieldset class="height">
+                    <label for="heightcm">Your height in cm :
+                        <input type="number" id="heightcm" name="height" value="Cm" placeholder="height in cm"><br>
+                    </label>
+                    <label for="heightinch">Your height in inches :<br>
+                        <input type="number" id="heightfeet" name="feet" placeholder="Feet">
+                        <input type="number" id="inches" name="inch" placeholder="Inches">
+                    </label>
+                </fieldset>
+                <fieldset class="weight">
+                    <label for="Weightkg">Your weight in kilograms :
+                        <input type="number" id="weightkg" name="weight" value="kg" placeholder="weight in kg"><br>
+                    </label>
+                    <label for="Weightlbs">Your weight in pounds :
+                        <input type="number" id="weightlbs" name="weight" value="lbs" placeholder="weight in lbs">
+                    </label>
+                </fieldset><br>
+                <fieldset class="age">
+                    <label for="age">Your age :
+                        <input type="number" id="age" name="age" placeholder="17">
+                    </label>
+                </fieldset>
+            </div>
+            <div class="activityy">
+                <h2>Your current fitness journey</h2>
+                <h3>What is your activity level</h3>
+                <select id="options">
+                    <option value="sedentary">Sedentary (little to no exercise)</option>
+                    <option value="light">Lightly active (light exercise/sports 1-3 days a week)</option>
+                    <option value="average">Moderately active (moderate exercise/sports 3-5 days a week)</option>
+                    <option value="very">Very active (hard exercise/sports 6-7 days a week)</option>
+                    <option value="extreme">Extremely active (very hard exercise/sports or physical job)</option>
+                </select><br>
+    
+                <h3>What is your goal</h3>
+                <select id="plan">
+                    <option value="cut">Slowly lose fat (Cut)</option>
+                    <option value="maintain">Maintain</option>
+                    <option value="lean">Slowly gain muscle (Lean Bulk)</option>
+                    <option value="bulk">Gain muscle fast (Bulk)</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+        <button type="submit" id="chart_button" href="#result">I want my result!</button>
+
+    <div id="result">
+        <h2 id="giveplan"></h2>
+        <p class="bmrvalue">Your basal metabolic rate (BMR) is <span id="bmr"></span></p>
+
+        <h2 class="info">Below you will find how much of these nutrients you should eat per day</h2>
+        <table id="nutrients">
+            <thead>
+                <tr>
+                    <th>
+                        <div id="caloriesss">
+                            <h2>Calories</h2>
+                            <h3 class="calorie"></h3>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="gains">
+                            <h2>Proteins</h2>
+                            <h3 class="protein"></h3>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="sugar">
+                            <h2>Carbs</h2>
+                            <h3 class="carbs"></h3>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="fatss">
+                            <h2>Fat</h2>
+                            <h3 class="fat"></h3>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+        <canvas id="chart" width="400" height="200"></canvas>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made by Wilkins.</p>
+    </div>
+   
+<script src="Consistency.Js"></script>    
+
+</body>    
+</html>

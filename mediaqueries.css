@@ -12,20 +12,20 @@
     }
     
     #Welcome h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #Welcome h3 {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1.5;
     }
 
     .deff {
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .deff h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     #Definitions h2 {
@@ -72,7 +72,7 @@
     }
 
     fieldset.sex img {
-        width: 100%;
+        width: 75%;
         height: auto;
         display: inline;
     }

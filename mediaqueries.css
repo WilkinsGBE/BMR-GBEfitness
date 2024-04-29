@@ -12,11 +12,11 @@
     }
     
     #Welcome h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     #Welcome h3 {
-        font-size: 45px;
+        font-size: 30px;
         line-height: 1.5;
     }
 
@@ -25,11 +25,7 @@
     }
 
     .deff h1 {
-        font-size: 55px;
-    }
-
-    .deff i {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #Definitions h2 {
@@ -76,7 +72,7 @@
     }
 
     fieldset.sex img {
-        width: 200%;
+        width: 100%;
         height: auto;
         display: inline;
     }
@@ -102,6 +98,8 @@
     
     .table_data {
         display: inline-block;
+        text-align: center;
+        margin-left: -15px;
     }
  
     form #gbe img {

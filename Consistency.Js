@@ -203,22 +203,3 @@ tablinks.forEach(function(link) {
     });
 });
 
-
-
-
-
-
-  // tablinks.forEach(function(link){
-  //   link.addEventListener('click', function() {
-  //     tablinks.forEach(function(link){
-  //       link.classList.remove('active-link');
-  //     });
-  //     this.classList.add('active-link');
-
-  //     tabcontents.forEach(function(content) {
-  //       content.classList.remove('active-tab');
-  //     });
-//   //     tabcontents.classList.add('active-tab');
-//     });
-//   });
-// };
